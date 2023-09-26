@@ -1,0 +1,65 @@
+/* Write your CSS code here */
+
+.each-blog {
+  width: 60vw;
+  height: 35vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-style: solid;
+  border-color: #8e8e8e;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+.logo-image {
+  height: 30vh;
+  width: 25vw;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.author-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.book-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.author-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.topic {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #8e8e8e;
+  font-weight: 500;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.author {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #8e8e8e;
+  font-weight: 400;
+}
